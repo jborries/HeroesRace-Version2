@@ -70,6 +70,10 @@
 /* --------- Styles for Screen width Smaller than 767px -------- */
 @media only screen and (max-width: 767px) {
 
+	.step-no .no-inner{
+		font-size: 46px;
+	}
+
 	/* Main menu */
 	.navbar-collapse {
 		margin-left: -16px;
@@ -153,6 +157,10 @@
 /* --------- Styles for Screen width Smaller than 480px -------- */
 @media only screen and (max-width: 480px) {
 	/* Headings for mobile View */
+	.step-no .no-inner{
+		font-size: 46px;
+	}
+
 	h1 {
 		font-size: 36px;
 		line-height: 48px;
@@ -216,6 +224,11 @@
 
 /* --------- Styles for Screen width Smaller than 360px -------- */
 @media only screen and (max-width: 360px) {
+
+	.step-no .no-inner{
+		font-size: 46px;
+	}
+	
 	.client-photos .photo-hold {
 		width: 80px;
 		height: 80px;

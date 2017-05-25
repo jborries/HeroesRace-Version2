@@ -293,7 +293,7 @@ font-weight: 700;
 	font-family: 'Bangers', cursive;
 	font-size: 24px;
 	padding: 8px 15px;
-	letter-spacing: 1px;
+	<!--letter-spacing: 1px;-->
 }
 
 .site-name span {
@@ -503,6 +503,20 @@ left: calc(50% - 110px);
 .step-even {
 	background-color:#333;
 	color:#e5e5e5;
+}
+
+.buffer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.title-buffer {
+    padding-top: 150px;
+}
+
+.step-odd {
+    background-color: #e5e5e5;
+    color: #333;
 }
 
 .step-even .step-desc {

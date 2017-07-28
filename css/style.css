@@ -39,6 +39,8 @@ Website: http://themegret.com
 
 /* --------------- Reset Styles --------------- */
 
+
+
 .container.download.center{
     background:#ffffff;
 }
@@ -126,7 +128,18 @@ li {
 	list-style: none;
 }
 
+.bullet-point{
+    list-style: disc;
+    margin-left: 20px;
+}
+
 /* --------------- Common Classes --------------- */
+.cd-label {
+    color: #333;
+    margin-top: 5px;
+    width: 300px;
+}
+
 .center {
 	text-align: center;
 }
@@ -858,6 +871,8 @@ margin-right: 8px;
 
 
 /* ================ Pricing Section ================ */
+
+
 #section-pricing {
 	background: #f9f9f9;
 	color:#666;

@@ -116,18 +116,19 @@
 				</div>
 
 				<div class="col-md-10 step-details">
-						<h3 class="step-title color-scheme">Kids & Adults Fun Run - 8:30 A.M.</h3>
-						<h4 class="step-title color-scheme">$15 through race day</h4>
+						<!--<h3 class="step-title color-scheme">Kids & Adults Fun Run - 8:30 A.M.</h3>-->
+						<h4 class="step-title color-scheme">Help us find 25 individuals worthy of being called a hero to the community. These individuals will be showcased along with their story on our website and receive a small monetary gift as a thank you. of these 25 individuals, 1 will be selected by our committee and honored at our annual "Heroes Race" event. This Hero will receive a $1000 gift as a reward for their actions.</h4>
 
 						<fieldset>
+						<form action="https://formspree.io/jesse.borries@gmail.com" method="POST">
 							<legend>Your Information</legend>
 							<div class="icon">
 							Your Information: <br />
-							<input class="user cd-label" type="text" name="nominator-name" id="ominator-name" placeholder="Your Name" required></input><br />
+							<input class="user cd-label" type="text" name="nominator-name" id="nominator-name" placeholder="Your Name" required></input><br />
 
 							<input class="user cd-label" type="text" name="nominator-phone" id="nominator-phone" placeholder="Your Phone Number" required></input><br />
 
-							<input class="user cd-label" type="text" name="nominator-email" id="nominator-email" placeholder="Your Email" required></input><br />
+							<input class="user cd-label" type="email" name="_replyto" id="nominator-email" placeholder="Your Email" required></input><br />
 
 							<input class="user cd-label" type="text" name="nominator-email" id="nominator-address" placeholder="Your Address (optional)" ></input><br />
 
@@ -151,25 +152,29 @@
 							<input class="user cd-label" type="text" name="nominator-email" id="nominee-address" placeholder="Nominee Address (optional)"></input><br /><br />
 
 							<p>Please describe what makes your nominee a Worthy Hero (required)</p>
-							<textarea class="cd-label" rows="4" cols="50" style="width: 600px;" name="nominee-description" required></textarea>
+							<textarea class="cd-label" rows="4" cols="50" style="width: 600px;" name="nominee-description" required></textarea><br /><br />
 
 							<p>Has there been a story about your Hero in the local media? If so, please share any links to online media coverage.</p>
-							<textarea class="cd-label" rows="2" cols="50" style="width: 600px;" name="nominee-description"></textarea>
+							<textarea class="cd-label" rows="2" cols="50" style="width: 600px;" name="nominee-description"></textarea><br /><br />
 
 							<p>Were there others involved in this story who can be contacted? If so, please include their email/contact information.</p>
 							<textarea class="cd-label" rows="2" cols="50" style="width: 600px;" name="nominee-description"></textarea>
+
+							<p class="step-description">
+							Only the first 25 submissions that meet all the criteria will be showcased!</p>
+
+   						<input type="submit" value="Submit" name="submit" placeholder="submit" style="background-color: #E67E22; color: black;"></input>
+						</form>
 						</fieldset><br />
 
-						<p class="step-description">
 
-						Only the first 25 submissions that meet all the criteria will be showcased!</p>
 
-						<ul class="sub-steps"> <!-- Sub steps here -->
+						<!--<ul class="sub-steps">
 							<li>
 								<span class="icon fa fa-comments color-scheme"></span>
 								<span class="sub-text">Submit</span>
 							</li>
-						</ul>
+						</ul>-->
 				</div><!-- End step-details -->
 			</div>
 			<!-- Step Description Ends -->
@@ -196,76 +201,6 @@
 	<!--================== END RIGHT SIDE ===========================-->
 
 
-	<data value=""></data>
-	<div class="container">
-	<form class="cd-form floating-labels">
-	<fieldset>
-		<legend>Account Info</legend>
-
-		<div class="error-message">
-			<p>Please enter a valid email address</p>
-		</div>
-
-		<div class="icon">
-			<label class="cd-label" for="cd-name">Name</label>
-			<input class="user" type="text" name="cd-name" idd="cd-name" required>
-	    </div>
-	</fieldset>
-
-	    <!-- ... -->
-
-
-
-		<legend>Project Info</legend>
-
-		<div>
-			<h4>Budget</h4>
-
-			<p class="cd-select icon">
-				<select class="budget">
-					<option value="0">Select Budget</option>
-					<option value="1">&lt; $5000</option>
-					<option value="2">$5000 - $10000</option>
-					<option value="3">&gt; $10000</option>
-				</select>
-			</p>
-		</div>
-
-		<div>
-			<h4>Project type</h4>
-
-			<ul class="cd-form-list">
-				<li>
-					<input type="radio" name="radio-button" id="cd-radio-1" checked>
-					<label for="cd-radio-1">Choice 1</label>
-				</li>
-
-				<li>
-					<input type="radio" name="radio-button" id="cd-radio-2">
-					<label for="cd-radio-2">Choice 2</label>
-				</li>
-
-				<li>
-					<input type="radio" name="radio-button" id="cd-radio-3">
-					<label for="cd-radio-3">Choice 3</label>
-				</li>
-			</ul>
-		</div>
-
-		<!-- ... -->
-
-		<div class="icon">
-			<label class="cd-label" for="cd-textarea">Project description</label>
-  			<textarea class="message" name="cd-textarea" id="cd-textarea" required></textarea>
-		</div>
-
-		<div>
-	      	<input type="submit" value="Send Message">
-	    </div>
-</form>
-</div>
-</section>
-<!--=================== END FORM ===================================-->
 
 
 <!--======================== Contact section Starts ========================-->

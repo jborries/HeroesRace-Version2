@@ -951,7 +951,7 @@ margin-right: 8px;
 
 @media only screen and (min-width: 768px) {
 .single-pricing .package-features li:nth-of-type(2n+1) {
-    background-color: rgba(23, 61, 80, 0.06);
+    background-color: #E5E5E5/*rgba(23, 61, 80, 0.06)*/;
 }
 }
 

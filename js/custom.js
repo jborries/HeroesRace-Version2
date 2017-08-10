@@ -279,7 +279,7 @@ $(document).ready(function() {
 
 /* -----------------------------
 Contact form
------------------------------ */
+-----------------------------
 $(document).ready(function() {
 	'use strict';
 	$('form.contact-form').on('submit', function(e) {
@@ -300,4 +300,5 @@ $(document).ready(function() {
 		e.preventDefault();
 	});
 
-});
+
+});*/

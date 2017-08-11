@@ -132,6 +132,7 @@
 
 	.step .step-img {
 		margin-top: 30px;
+		position: initial;
 	}
 
 	.sub-steps .sub-text {
@@ -228,7 +229,7 @@
 	.step-no .no-inner{
 		font-size: 46px;
 	}
-	
+
 	.client-photos .photo-hold {
 		width: 80px;
 		height: 80px;

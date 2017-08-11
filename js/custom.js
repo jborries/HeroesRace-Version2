@@ -76,8 +76,8 @@ $(document).ready(function() {
 	var $el 			= $( '#card-ul' ),
 		sectionFeature  = $('#section-feature'),
 		baraja 			= $el.baraja();
-
-		if ( $(window).width() > 480) {
+/*old width size 480*/
+		if ( $(window).width() > 767) {
 			sectionFeature.appear(function(){
 				baraja.fan({
 					speed : 1500,

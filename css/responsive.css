@@ -70,6 +70,10 @@
 /* --------- Styles for Screen width Smaller than 767px -------- */
 @media only screen and (max-width: 767px) {
 
+	.button-line-nominate {
+		width: 220px;
+	}
+
 	.step-no .no-inner{
 		font-size: 46px;
 	}

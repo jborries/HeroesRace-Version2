@@ -193,10 +193,10 @@
 	}
 
 	.features-control {
-		float: left;
+		/*float: left;*/ /*originally all 4 tags implemented*/
 		height: 160px;
-		width: 42px;
-		bottom: 340px;
+		width: 287px; /*originally 42px*/
+		/*bottom: 340px;*/
 	}
 
 	.features-control .control-icon {

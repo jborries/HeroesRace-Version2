@@ -76,8 +76,8 @@ $(document).ready(function() {
 	var $el 			= $( '#card-ul' ),
 		sectionFeature  = $('#section-feature'),
 		baraja 			= $el.baraja();
-/*old width size 480*/
-		if ( $(window).width() > 767) {
+/*old width size 480, can also step up to 767*/
+		if ( $(window).width() > 480) {
 			sectionFeature.appear(function(){
 				baraja.fan({
 					speed : 1500,
@@ -98,24 +98,25 @@ $(document).ready(function() {
 					center : true
 				});
 			});
-		} else {
+		}  else {
 			sectionFeature.appear(function(){
 				baraja.fan({
 					speed : 1500,
-					easing : 'ease-out',
-					range : 80,
-					direction : 'left',
-					origin : { x : 200, y : 50 },
+					easing : 'ease-out', /*originially ease-out*/
+					range : 15, /* originally 80*/
+					direction : 'right', /*left*/
+					origin : { x : 50, y : 200 }, /*originally x: 200, y: 50*/
 					center : true
 				});
 			});
+			/*originally #feature-expand*/
 			$('#feature-expand').click(function() {
 				baraja.fan({
 					speed : 500,
-					easing : 'ease-out',
-					range : 80,
-					direction : 'left',
-					origin : { x : 200, y : 50 },
+					easing : 'ease-out', /*originally ease-out*/
+					range : 15, /*originally 80*/
+					direction : 'right', /*originally left*/
+					origin : { x : 50, y : 200 },
 					center : true
 				});
 			});
@@ -247,14 +248,14 @@ $(document).ready(function() {
 /* -----------------------------
 MailCimp Plugin Script
 ----------------------------- */
-$(document).ready(function() {
+/* $(document).ready(function() {
 	'use strict';
 	$('#subscription-form').ajaxChimp({
 		callback: mailchimpCallback,
-		url: 'YOUR_URL' /* Replace it with your custom URL inside '' */
-	});
+		url: 'YOUR_URL' /* Replace it with your custom URL inside '' */ 
+/*	}); */
 
-	function mailchimpCallback(resp) {
+/*	function mailchimpCallback(resp) {
 		 if(resp.result === 'success') {
 			$('.subscription-success')
 				.html(resp.msg)
@@ -273,7 +274,7 @@ $(document).ready(function() {
 		}
 		$('#subscription-form .input-email').val('');
 	};
-});
+}); */
 
 
 

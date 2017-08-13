@@ -84,7 +84,7 @@
 		margin-right: -16px;
 		background: #222;
 		overflow-y:scroll;
-		max-height: 200px;
+		max-height: 300px;
 	}
 
 	.navbar-nav > li > a {

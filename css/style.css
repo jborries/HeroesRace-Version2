@@ -128,16 +128,21 @@ li {
 	list-style: none;
 }
 
+.criteria {
+    text-align: left;
+}
+
 .bullet-point{
     list-style: disc;
     margin-left: 20px;
+    text-align: left;
 }
 
 /* --------------- Common Classes --------------- */
 .cd-label {
     color: #333;
     margin-top: 5px;
-    width: 400px;
+    width: 100%;
 }
 
 .center {

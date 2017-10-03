@@ -80,6 +80,10 @@ a:hover, a:focus, .btn:focus {
 	color: #6c6b6b
 }
 
+.link {
+    color: #E67E22;
+}
+
 input:focus, textarea:focus {
 	outline: 0;
 }
@@ -957,8 +961,8 @@ margin-right: 8px;
 }
 
 .water-stop-padding{
-    padding-top: 14px !important;
-    padding-bottom: 14px !important;
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
 }
 
 @media (min-width: 992px) and (max-width: 1199px){

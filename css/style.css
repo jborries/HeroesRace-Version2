@@ -146,6 +146,10 @@ li {
     text-transform: none;
 }
 
+.fabric-background{
+    background-image: url("../images/cross_scratches.png") !important;
+}
+
 /* --------------- Common Classes --------------- */
 .cd-label {
     color: #333;
@@ -216,6 +220,11 @@ font-weight: 700;
 .section-title {
 	margin-bottom: 48px;
     text-transform: none;;
+}
+
+.nominate-text{
+    font-size: 20px;
+    line-height: 30px;
 }
 
 .section-title h3, .section-title h4 {
@@ -346,7 +355,7 @@ font-weight: 700;
 
 ul.nav > li > a {
 	color:#fff;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 400;
 }
 
@@ -510,6 +519,9 @@ left: calc(50% - 110px);
 
 
 /* ================ Services Section ================ */
+
+
+
 #section-services {
 	position:relative;
 	background-color: #333333;
